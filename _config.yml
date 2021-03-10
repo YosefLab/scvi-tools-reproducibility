@@ -1,0 +1,13 @@
+# Book settings
+title: scvi-tools manuscript reproducibility
+author: Adam Gayoso, Romain Lopez, Galen Xing, et al.
+
+execute:
+  execute_notebooks: "off"
+
+repository:
+  url: https://github.com/yoseflab/scvi-tools-reproducibility  # Online location of your book
+
+html:
+  use_issues_button: true
+  use_repository_button: true
