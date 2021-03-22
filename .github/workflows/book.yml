@@ -27,17 +27,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -U pip && pip install jupyter-book ipywidgets sphinxcontrib-gtagjs
+          pip install -U pip && pip install mkdocs mkdocs-material mkdocs-jupyter
 
       # Build the book
       - name: Build the book
         run: |
-          jupyter-book build .
+          mkdocs build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: pages # The branch the action should deploy to.
-          FOLDER: ./_build/html # The folder the action should deploy.
+          FOLDER: ./site # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
