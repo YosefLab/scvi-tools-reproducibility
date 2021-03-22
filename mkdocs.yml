@@ -1,0 +1,15 @@
+---
+site_name: scvi-tools-reproducibility
+repo_url: https://github.com/yoseflab/scvi-tools-reproducibility
+theme:
+  name: material
+  custom_dir: overrides
+nav:
+    - 'index.md'
+    - 'Stereoscope.ipynb'
+    - 'scarches_totalvi_seurat_data.ipynb'
+    - 'scvi_covariates.ipynb'
+    - 'cell_assign_hgsc_and_follicular_data.ipynb'
+plugins:
+  - mkdocs-jupyter:
+      include_source: True
