@@ -7,11 +7,11 @@ theme:
   palette:
     primary: white
 nav:
-    - 'index.md'
-    - 'Stereoscope.ipynb'
-    - 'scarches_totalvi_seurat_data.ipynb'
-    - 'scvi_covariates.ipynb'
-    - 'cell_assign_hgsc_and_follicular_data.ipynb'
+    - Home: 'index.md'
+    - Figure 2 Multiple Covariates: 'scvi_covariates.ipynb'
+    - Figure 3 totalVI scArches: 'scarches_totalvi_seurat_data.ipynb'
+    - Figure 5 Stereoscope: 'Stereoscope.ipynb'
+    - Supplement CellAssign: 'cell_assign_hgsc_and_follicular_data.ipynb'
 plugins:
   - mkdocs-jupyter:
       include_source: True
