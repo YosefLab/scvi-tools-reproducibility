@@ -4,6 +4,8 @@ repo_url: https://github.com/yoseflab/scvi-tools-reproducibility
 theme:
   name: material
   custom_dir: overrides
+  palette:
+    primary: white
 nav:
     - 'index.md'
     - 'Stereoscope.ipynb'
