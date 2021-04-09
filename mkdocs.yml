@@ -13,6 +13,7 @@ nav:
     - Figure 5 Stereoscope: 'Stereoscope.ipynb'
     - Figure 5c Code Stats: 'stereoscope_code_complexity.ipynb'
     - Supplement CellAssign: 'cell_assign_hgsc_and_follicular_data.ipynb'
+    - Supplement CellAssign Runtime: 'cell_assign_runtime.ipynb'
 plugins:
   - mkdocs-jupyter:
       include_source: True
