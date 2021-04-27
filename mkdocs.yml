@@ -12,6 +12,8 @@ nav:
     - Figure 3 totalVI scArches: 'scarches_totalvi_seurat_data.ipynb'
     - Figure 5 Stereoscope: 'Stereoscope.ipynb'
     - Figure 5c Code Stats: 'stereoscope_code_complexity.ipynb'
+    - Supplement scVI Runtime Dataset: 'runtime_make_datasets.ipynb'
+    - Supplement scVI Runtime Plot: 'runtime_analysis_reproducibility.ipynb'
     - Supplement CellAssign: 'cell_assign_hgsc_and_follicular_data.ipynb'
     - Supplement CellAssign Runtime: 'cell_assign_runtime.ipynb'
 plugins:
