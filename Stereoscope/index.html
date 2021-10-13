@@ -3029,7 +3029,7 @@ LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
 <span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">yaxis</span><span class="o">.</span><span class="n">set_ticks</span><span class="p">([])</span>
 <span class="c1"># plt.xlabel(&quot;Cell types&quot;)</span>
 <span class="c1"># plt.ylabel(&quot;Genes&quot;)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;cell_type_location.pdf&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;figs/stereoscope/cell_type_location.pdf&quot;</span><span class="p">)</span>
 </pre></div>
 <div id="cell-29" class="clipboard-copy-txt">plt.scatter(sl_adata.obsm["spatial"][:, 0],  sl_adata.obsm["spatial"][:, 1], c=sl_adata.obsm["deconvolution"].values.argmax(1), cmap="Set2")
 # cmap="YlGnBu")
@@ -3037,7 +3037,7 @@ plt.gca().axes.xaxis.set_ticks([])
 plt.gca().axes.yaxis.set_ticks([])
 # plt.xlabel("Cell types")
 # plt.ylabel("Genes")
-plt.savefig("cell_type_location.pdf")
+plt.savefig("figs/stereoscope/cell_type_location.pdf")
 </div>
     
         </div>
