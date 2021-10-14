@@ -16,6 +16,7 @@ nav:
     - Supplement scVI Runtime Plot: 'runtime_analysis_reproducibility.ipynb'
     - Supplement CellAssign: 'cell_assign_hgsc_and_follicular_data.ipynb'
     - Supplement CellAssign Runtime: 'cell_assign_runtime.ipynb'
+    - Supplement setup anndata: 'setup_anndata_Profiling.ipynb'
 plugins:
   - mkdocs-jupyter:
       include_source: True
